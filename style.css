@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #FBFBFB;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FCFCFC;
 }
 .container{
     width: 90%;
@@ -20,7 +21,7 @@ body{
 /* nav */
 nav{
     background-color: #fff;
-    padding: 20px 0;
+    padding: 8px 0;
 }
 .navbar img{
     max-width: 125px;
@@ -42,10 +43,10 @@ nav{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 150px;
+    padding: 100px 0;
     
 }
 .head span{
@@ -57,19 +58,19 @@ nav{
     font-weight: bold;
 }
 .head .wh{
-    font-size: 80px;
+    font-size: 70px;
     margin: 20px 0;
     font-weight: bold;
     color: #fff;
 }
 .head .gr{
-    font-size: 80px;
+    font-size: 70px;
     margin: 20px 0;
     font-weight: bold;
     color: #30AB64;
 }
 .head p{
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     margin: 20px 0;
     line-height: 1.5;
@@ -80,16 +81,19 @@ nav{
 .green{
     background-color: #469165;
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     border: none;
-    padding: 13px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 5px;
     margin-right: 10px;
+}
+.green img{
+    width: 12px;
 }
 .nobg{
     color: #fff;
-    font-size: 18px;
-    padding: 13px;
+    font-size: 15px;
+    padding: 10px;
     border-radius: 8px;
     background-color: transparent;
     border: 2px solid #fff;
@@ -156,7 +160,7 @@ nav{
 }
 .second-brain .second-brain-content{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
 }
 .second-brain .second-brain-image img{
@@ -191,4 +195,55 @@ nav{
 }
 .second-brain-text span img{
     max-width: 15px;
+}
+
+/* early access */
+.early-access{
+    background-color: #F5F4F1;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+.early-access h2{
+    color: #011A32;
+    font-size: 40px;
+    font-weight: bold;
+}
+.early-access h3{
+    font-size: 14px;
+    font-weight: normal;
+    color: #70808D;
+    margin: 15px 0 20px 0;
+}
+.early-access p{
+    color: #70808D;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+/* footer */
+.footer{
+    background-color:#1B3146;
+    padding: 50px 0 5px 0;
+    color: #fff;
+}
+.end{
+    text-align: center;
+    color: #fff;
+}
+.end p{
+    font-size: 10px;
+    font-weight: normal;
+}
+.white-line{
+    background-color: #fff;
+    height: 1px;
+    margin: 20px auto;
+}
+
+.line{
+    width: 100%;
+    height: 20px;
+    background-color: #001931;
 }
